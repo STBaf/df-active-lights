@@ -8,6 +8,11 @@
 			"name": "flamewave000",
 			"discord": "flamewave000",
 			"url": "https://github.com/flamewave000"
+		},
+		{
+			"name": "STB",
+			"discord": "stbaf",
+			"url": "https://github.com/STBaf"
 		}
 	],
 	"compatibility": {
@@ -51,35 +56,7 @@
 			}
 		]
 	},
-	"url": "https://dragonflagon.cafe/mods/url/df-active-lights",
-	"license": "https://dragonflagon.cafe/mods/lic/df-active-lights",
-	"readme": "https://dragonflagon.cafe/mods/doc/df-active-lights",
-	"changelog": "https://dragonflagon.cafe/mods/chg/df-active-lights",
-	"bugs": "https://dragonflagon.cafe/mods/bug/df-active-lights",
-	"media": [
-		{
-			"type": "cover",
-			"url": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/.assets/df-active-lights/df-active-lights.gif"
-		},
-		{
-			"type": "icon",
-			"url": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/.assets/logo.png"
-		},
-		{
-			"type": "screenshot",
-			"url": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/.assets/df-active-lights/df-active-lights2.gif"
-		},
-		{
-			"type": "screenshot",
-			"url": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/.assets/df-active-lights/df-active-lights3.gif"
-		},
-		{
-			"type": "screenshot",
-			"url": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/.assets/df-active-lights/df-active-lights-config-button.png"
-		},
-		{
-			"type": "screenshot",
-			"url": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/.assets/df-active-lights/df-active-lights-config.png"
-		}
-	]
+    "url": "https://github.com/STBaf/df-active-lights",
+    "manifest": "https://raw.githubusercontent.com/STBaf/df-active-lights/master/module.json",
+    "download": "https://github.com/STBaf/df-active-lights/releases/download/v3.0.0/df-active-lights.zip"
 }
