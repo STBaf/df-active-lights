@@ -1,0 +1,46 @@
+{
+	"DF_ACTIVE_LIGHTS": {
+		"name": "DF Active Lights",
+		"Seconds": "Sekunden",
+		"Config": {
+			"Title": "Aktive-Licht-Konfiguration: ",
+			"OpenButton": "Aktive-Licht-Konfiguration",
+			"AddKey": "Keyframe hinzufügen",
+			"DeleteKey": "Keyframe löschen",
+			"Bounce": "Animation hin und her laufen lassen",
+			"Randomize": "Versatz zufällig anhand der aktuellen Dauer wählen",
+			"Offset": "Zeitversatz in Millisekunden, um gleiche Animationen zu \"entkoppeln\"",
+			"Manual": "Animation starten, wenn das Licht eingeschaltet wird",
+			"ManualDesc": "Erlaubt der Spielleitung zu steuern, wann eine Animation beginnt: Licht aus- und wieder einschalten startet die Animation neu."
+		},
+		"Props": {
+			"Time": "Keyframe-Zeitpunkt (Millisekunden)",
+			"Enable": "Eigenschaft aktivieren",
+			"Dim": "Radius dämmriges Licht",
+			"Bright": "Radius helles Licht",
+			"Angle": "Abstrahlwinkel",
+			"Rotation": "Drehwinkel des Lichts",
+			"TintColor": "Lichtfarbe",
+			"TintAlpha": "Farbintensität"
+		},
+		"Funcs": {
+			"Linear": "Linear",
+			"LinearLoop": "Linear (Schleife)",
+			"FixedStart": "Fester Start",
+			"FixedEnd": "Festes Ende",
+			"QuadIn": "Quadratisch rein",
+			"QuadOut": "Quadratisch raus",
+			"QuadFull": "Quadratisch voll",
+			"QuadLoop": "Quadratisch (Schleife)",
+			"EllipseIn": "Elliptisch rein",
+			"EllipseOut": "Elliptisch raus",
+			"EllipseFull": "Elliptisch voll",
+			"EllipseLoop": "Elliptisch (Schleife)"
+		},
+		"Warnings": {
+			"KeyFrame_Zero": "Ein zusätzlicher Keyframe kann nicht auf den Zeitpunkt NULL gesetzt werden!",
+			"KeyFrame_Exists": "Für den Zeitpunkt {0} Sekunden existiert bereits ein Keyframe"
+		},
+		"animationToggleTitle": "Aktive Lichter animieren"
+	}
+}

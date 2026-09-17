@@ -1,0 +1,21 @@
+<div class="dfal-row dfal-time">
+	<label for="{{appId}}-time">{{localize "DF_ACTIVE_LIGHTS.Props.Time"}}</label>
+	<input id="{{appId}}-time" type="number" name="time" min="0" step="1" value="{{time}}" {{#if first}}disabled{{/if}}>
+</div>
+{{#each props}}
+<div class="dfal-row" data-prop="{{name}}">
+	<input type="checkbox" data-field="enabled" data-tooltip="{{@root.enableLabel}}"
+		aria-label="{{@root.enableLabel}}" {{#if enabled}}checked{{/if}}>
+	<label>{{label}}</label>
+	{{#if isColor}}
+	<input type="color" data-field="value" value="{{value}}" {{#unless enabled}}disabled{{/unless}}>
+	{{else}}
+	<input type="number" data-field="value" step="any" value="{{value}}" {{#unless enabled}}disabled{{/unless}}>
+	{{/if}}
+	<select data-field="func" {{#unless enabled}}disabled{{/unless}}>
+		{{#each funcs}}
+		<option value="{{value}}" {{#if selected}}selected{{/if}}>{{label}}</option>
+		{{/each}}
+	</select>
+</div>
+{{/each}}

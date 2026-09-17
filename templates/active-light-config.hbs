@@ -1,0 +1,33 @@
+<div class="dfal">
+	<aside class="dfal-sidebar">
+		<ol class="dfal-keys"></ol>
+		<button type="button" data-action="addKeyframe">
+			<i class="fa-solid fa-plus"></i> {{localize "DF_ACTIVE_LIGHTS.Config.AddKey"}}
+		</button>
+	</aside>
+	<section class="dfal-main">
+		<div class="dfal-options">
+			<label class="dfal-check">
+				<input name="bounce" type="checkbox" {{#if bounce}}checked{{/if}}>
+				<span>{{localize "DF_ACTIVE_LIGHTS.Config.Bounce"}}</span>
+			</label>
+			<div class="dfal-offset">
+				<button type="button" class="icon" data-action="randomizeOffset"
+					data-tooltip="{{localize 'DF_ACTIVE_LIGHTS.Config.Randomize'}}"
+					aria-label="{{localize 'DF_ACTIVE_LIGHTS.Config.Randomize'}}" {{#if manual}}disabled{{/if}}>
+					<i class="fa-solid fa-dice"></i>
+				</button>
+				<input id="{{appId}}-offset" name="offset" type="number" min="0" step="1" placeholder="0"
+					value="{{offset}}" {{#if manual}}disabled{{/if}}>
+				<label for="{{appId}}-offset" class="dfal-offset-label {{#if manual}}dfal-strike{{/if}}">
+					{{localize "DF_ACTIVE_LIGHTS.Config.Offset"}}
+				</label>
+			</div>
+			<label class="dfal-check" data-tooltip="{{localize 'DF_ACTIVE_LIGHTS.Config.ManualDesc'}}">
+				<input name="manual" type="checkbox" {{#if manual}}checked{{/if}}>
+				<span>{{localize "DF_ACTIVE_LIGHTS.Config.Manual"}}</span>
+			</label>
+		</div>
+		<div class="dfal-props"></div>
+	</section>
+</div>

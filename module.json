@@ -1,0 +1,85 @@
+{
+	"id": "df-active-lights",
+	"version": "3.0.0",
+	"title": "DF Active Lights",
+	"description": "Lights can now have complex animations attached to their various properties such as the direction or colour. (Unofficial port for Foundry VTT v14)",
+	"authors": [
+		{
+			"name": "flamewave000",
+			"discord": "flamewave000",
+			"url": "https://github.com/flamewave000"
+		}
+	],
+	"compatibility": {
+		"minimum": "14",
+		"verified": "14"
+	},
+	"esmodules": [
+		"src/df-active-lights.mjs"
+	],
+	"styles": [
+		"css/core.css"
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		},
+		{
+			"lang": "de",
+			"name": "Deutsch",
+			"path": "lang/de.json"
+		},
+		{
+			"lang": "fr",
+			"name": "Français",
+			"path": "lang/fr.json"
+		},
+		{
+			"lang": "ja",
+			"name": "日本語",
+			"path": "lang/ja.json"
+		}
+	],
+	"relationships": {
+		"recommends": [
+			{
+				"id": "lib-wrapper",
+				"type": "module",
+				"reason": "Only used if the fallback light-source wrapper is needed."
+			}
+		]
+	},
+	"url": "https://dragonflagon.cafe/mods/url/df-active-lights",
+	"license": "https://dragonflagon.cafe/mods/lic/df-active-lights",
+	"readme": "https://dragonflagon.cafe/mods/doc/df-active-lights",
+	"changelog": "https://dragonflagon.cafe/mods/chg/df-active-lights",
+	"bugs": "https://dragonflagon.cafe/mods/bug/df-active-lights",
+	"media": [
+		{
+			"type": "cover",
+			"url": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/.assets/df-active-lights/df-active-lights.gif"
+		},
+		{
+			"type": "icon",
+			"url": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/.assets/logo.png"
+		},
+		{
+			"type": "screenshot",
+			"url": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/.assets/df-active-lights/df-active-lights2.gif"
+		},
+		{
+			"type": "screenshot",
+			"url": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/.assets/df-active-lights/df-active-lights3.gif"
+		},
+		{
+			"type": "screenshot",
+			"url": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/.assets/df-active-lights/df-active-lights-config-button.png"
+		},
+		{
+			"type": "screenshot",
+			"url": "https://raw.githubusercontent.com/flamewave000/dragonflagon-fvtt/master/.assets/df-active-lights/df-active-lights-config.png"
+		}
+	]
+}
